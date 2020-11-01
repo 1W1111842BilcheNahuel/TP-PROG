@@ -30,6 +30,7 @@ F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\AxInterop.WMPLi
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.ResolveComReference.cache
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Ventas.resources
 <<<<<<< HEAD
+<<<<<<< HEAD
 E:\Utn_GitHub\TP-PROG\TpFinalPorg\bin\Debug\TpFinalPorg.exe.config
 E:\Utn_GitHub\TP-PROG\TpFinalPorg\bin\Debug\TpFinalPorg.exe
 E:\Utn_GitHub\TP-PROG\TpFinalPorg\bin\Debug\TpFinalPorg.pdb
@@ -52,6 +53,9 @@ E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.GenerateResource.
 E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.CoreCompileInputs.cache
 E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.exe
 E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.pdb
+=======
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Vendedores.resources
+>>>>>>> c19fb39ce7f9b7e35df1664fa59f2de281fb11a9
 =======
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Vendedores.resources
 >>>>>>> c19fb39ce7f9b7e35df1664fa59f2de281fb11a9

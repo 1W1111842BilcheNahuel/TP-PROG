@@ -98,14 +98,20 @@
       <DependentUpon>Vehiculos.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Vendedor.cs" />
 =======
+=======
+>>>>>>> c19fb39ce7f9b7e35df1664fa59f2de281fb11a9
     <Compile Include="Vendedores.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Vendedores.Designer.cs">
       <DependentUpon>Vendedores.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+>>>>>>> c19fb39ce7f9b7e35df1664fa59f2de281fb11a9
+=======
 >>>>>>> c19fb39ce7f9b7e35df1664fa59f2de281fb11a9
     <Compile Include="Ventas.cs">
       <SubType>UserControl</SubType>
