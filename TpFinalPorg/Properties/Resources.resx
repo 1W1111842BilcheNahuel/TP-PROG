@@ -121,11 +121,11 @@
   <data name="webicon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\webicon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Clientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Vehiculosico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vehiculosico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="JVA1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\JVA1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Reportesico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Reportesico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,32 +136,35 @@
   <data name="webicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\webicon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="animales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animales.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Maximizwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maximizwe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ContactanosIco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ContactanosIco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IconoGVA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconoGVA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Volverico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Volverico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IconoGVA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconoGVA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Facturasico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Facturasico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mailicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mailicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Clientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Clientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="JVA1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JVA1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="powericon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\powericon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="webicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\webicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WhatsApp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="JVA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JVA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,11 +172,11 @@
   <data name="LoginLogoGVA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LoginLogoGVA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WhatsApp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="animales" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\animales.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="webicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\webicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="volver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\volver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,7 +184,7 @@
   <data name="Minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Facturasico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Facturasico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Vendedoresico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vendedoresico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

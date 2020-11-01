@@ -8,7 +8,6 @@ E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.exe
 E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.pdb
 E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.frmLogin.resources
 E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.frmPrincipal.resources
-F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.csprojAssemblyReference.cache
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.frmLogin.resources
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.frmPrincipal.resources
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Properties.Resources.resources
@@ -30,3 +29,4 @@ F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\Interop.WMPLib.
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\AxInterop.WMPLib.dll
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.ResolveComReference.cache
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Ventas.resources
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Vendedores.resources

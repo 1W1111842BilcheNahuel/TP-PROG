@@ -223,6 +223,16 @@ namespace TpFinalPorg.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Vendedoresico {
+            get {
+                object obj = ResourceManager.GetObject("Vendedoresico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap volver {
             get {
                 object obj = ResourceManager.GetObject("volver", resourceCulture);
