@@ -34,6 +34,8 @@ namespace TpFinalPorg
             reportes.Enabled = false;
             ventas.Hide();
             ventas.Enabled = false;
+            vendedores.Hide();
+            vendedores.Enabled = false;
 
         }
 
@@ -123,6 +125,12 @@ namespace TpFinalPorg
                 {
                     ventas.Enabled = false;
                     ventas.Hide();
+                    activo = false;
+                }
+                if (vendedores.Enabled == true)
+                {
+                    vendedores.Enabled = false;
+                    vendedores.Hide();
                     activo = false;
                 }
             }
@@ -218,7 +226,18 @@ namespace TpFinalPorg
                 btnVolver.Location = btnVenta.Location;
             }
         }
-    
+
+        private void btnVendedores_Click(object sender, EventArgs e)
+        {
+            if (CerrarUser() == false)
+            {
+                vendedores.Show();
+                vendedores.Enabled = true;
+                activo = true;
+                btnVolver.Show();
+                btnVolver.Location = btnVendedores.Location;
+            }
+        }
 
         private void panelTop_MouseMove(object sender, MouseEventArgs e)
         {

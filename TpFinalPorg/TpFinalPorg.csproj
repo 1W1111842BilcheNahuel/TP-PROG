@@ -97,6 +97,16 @@
     <Compile Include="Vehiculos.Designer.cs">
       <DependentUpon>Vehiculos.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Vendedor.cs" />
+=======
+    <Compile Include="Vendedores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vendedores.Designer.cs">
+      <DependentUpon>Vendedores.cs</DependentUpon>
+    </Compile>
+>>>>>>> c19fb39ce7f9b7e35df1664fa59f2de281fb11a9
     <Compile Include="Ventas.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -128,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vehiculos.resx">
       <DependentUpon>Vehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendedores.resx">
+      <DependentUpon>Vendedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>
@@ -226,6 +239,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Facturasico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vendedoresico.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

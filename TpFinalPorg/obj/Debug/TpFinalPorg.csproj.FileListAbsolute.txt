@@ -8,7 +8,6 @@ E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.exe
 E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.pdb
 E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.frmLogin.resources
 E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.frmPrincipal.resources
-F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.csprojAssemblyReference.cache
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.frmLogin.resources
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.frmPrincipal.resources
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Properties.Resources.resources
@@ -30,3 +29,29 @@ F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\Interop.WMPLib.
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\AxInterop.WMPLib.dll
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.ResolveComReference.cache
 F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Ventas.resources
+<<<<<<< HEAD
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\bin\Debug\TpFinalPorg.exe.config
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\bin\Debug\TpFinalPorg.exe
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\bin\Debug\TpFinalPorg.pdb
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\bin\Debug\Interop.WMPLib.dll
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\bin\Debug\AxInterop.WMPLib.dll
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.csprojAssemblyReference.cache
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\Interop.WMPLib.dll
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\AxInterop.WMPLib.dll
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.ResolveComReference.cache
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.ABMClientes.resources
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.Autopartes.resources
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.Contactanos.resources
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.frmLogin.resources
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.frmPrincipal.resources
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.Properties.Resources.resources
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.Reportes.resources
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.Vehiculos.resources
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.Ventas.resources
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.GenerateResource.cache
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.CoreCompileInputs.cache
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.exe
+E:\Utn_GitHub\TP-PROG\TpFinalPorg\obj\Debug\TpFinalPorg.pdb
+=======
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Vendedores.resources
+>>>>>>> c19fb39ce7f9b7e35df1664fa59f2de281fb11a9

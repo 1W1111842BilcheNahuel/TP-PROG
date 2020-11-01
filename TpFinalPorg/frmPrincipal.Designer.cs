@@ -32,20 +32,22 @@
             this.panelTop = new System.Windows.Forms.Panel();
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblHora = new System.Windows.Forms.Label();
-            this.btnMaximize = new System.Windows.Forms.Button();
-            this.btnMinimize = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.panellEFT = new System.Windows.Forms.Panel();
-            this.btnVenta = new System.Windows.Forms.Button();
+            this.PanelFill = new System.Windows.Forms.Panel();
+            this.tHora = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnVendedores = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
             this.btnContacto = new System.Windows.Forms.Button();
             this.btnAutopartes = new System.Windows.Forms.Button();
             this.btnVehiculos = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
-            this.PanelFill = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.tHora = new System.Windows.Forms.Timer(this.components);
+            this.btnVenta = new System.Windows.Forms.Button();
+            this.btnMaximize = new System.Windows.Forms.Button();
+            this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.vendedores = new TpFinalPorg.Vendedores();
             this.ventas = new TpFinalPorg.Ventas();
             this.reportes = new TpFinalPorg.Reportes();
             this.autopartes = new TpFinalPorg.Autopartes();
@@ -98,6 +100,207 @@
             this.lblHora.TabIndex = 5;
             this.lblHora.Text = "Hora";
             // 
+            // panellEFT
+            // 
+            this.panellEFT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.panellEFT.Controls.Add(this.btnVolver);
+            this.panellEFT.Controls.Add(this.btnReportes);
+            this.panellEFT.Controls.Add(this.btnContacto);
+            this.panellEFT.Controls.Add(this.btnAutopartes);
+            this.panellEFT.Controls.Add(this.btnVehiculos);
+            this.panellEFT.Controls.Add(this.btnClientes);
+            this.panellEFT.Controls.Add(this.btnVenta);
+            this.panellEFT.Controls.Add(this.btnVendedores);
+            this.panellEFT.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panellEFT.Location = new System.Drawing.Point(0, 44);
+            this.panellEFT.Name = "panellEFT";
+            this.panellEFT.Size = new System.Drawing.Size(137, 556);
+            this.panellEFT.TabIndex = 2;
+            // 
+            // PanelFill
+            // 
+            this.PanelFill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(64)))));
+            this.PanelFill.Controls.Add(this.vendedores);
+            this.PanelFill.Controls.Add(this.ventas);
+            this.PanelFill.Controls.Add(this.reportes);
+            this.PanelFill.Controls.Add(this.autopartes);
+            this.PanelFill.Controls.Add(this.vehiculos);
+            this.PanelFill.Controls.Add(this.contactanos);
+            this.PanelFill.Controls.Add(this.abmClientes);
+            this.PanelFill.Controls.Add(this.pictureBox1);
+            this.PanelFill.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelFill.Location = new System.Drawing.Point(137, 44);
+            this.PanelFill.Name = "PanelFill";
+            this.PanelFill.Size = new System.Drawing.Size(663, 556);
+            this.PanelFill.TabIndex = 3;
+            // 
+            // tHora
+            // 
+            this.tHora.Enabled = true;
+            this.tHora.Tick += new System.EventHandler(this.tHora_Tick);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.pictureBox1.Image = global::TpFinalPorg.Properties.Resources.JVA1;
+            this.pictureBox1.Location = new System.Drawing.Point(18, 23);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(624, 484);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnVendedores
+            // 
+            this.btnVendedores.FlatAppearance.BorderSize = 0;
+            this.btnVendedores.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.btnVendedores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnVendedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVendedores.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVendedores.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnVendedores.Image = global::TpFinalPorg.Properties.Resources.Vendedoresico;
+            this.btnVendedores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVendedores.Location = new System.Drawing.Point(0, 445);
+            this.btnVendedores.Name = "btnVendedores";
+            this.btnVendedores.Size = new System.Drawing.Size(137, 45);
+            this.btnVendedores.TabIndex = 7;
+            this.btnVendedores.Text = "Vendedores";
+            this.btnVendedores.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnVendedores.UseVisualStyleBackColor = true;
+            this.btnVendedores.Click += new System.EventHandler(this.btnVendedores_Click);
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnVolver.Image = global::TpFinalPorg.Properties.Resources.Volverico;
+            this.btnVolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVolver.Location = new System.Drawing.Point(3, 60);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(137, 45);
+            this.btnVolver.TabIndex = 5;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // btnReportes
+            // 
+            this.btnReportes.FlatAppearance.BorderSize = 0;
+            this.btnReportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.btnReportes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReportes.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportes.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnReportes.Image = global::TpFinalPorg.Properties.Resources.Reportesico;
+            this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReportes.Location = new System.Drawing.Point(0, 291);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Size = new System.Drawing.Size(137, 45);
+            this.btnReportes.TabIndex = 4;
+            this.btnReportes.Text = "Reportes";
+            this.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnReportes.UseVisualStyleBackColor = true;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
+            // 
+            // btnContacto
+            // 
+            this.btnContacto.FlatAppearance.BorderSize = 0;
+            this.btnContacto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.btnContacto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnContacto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnContacto.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContacto.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnContacto.Image = global::TpFinalPorg.Properties.Resources.ContactanosIco;
+            this.btnContacto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnContacto.Location = new System.Drawing.Point(0, 511);
+            this.btnContacto.Name = "btnContacto";
+            this.btnContacto.Size = new System.Drawing.Size(137, 45);
+            this.btnContacto.TabIndex = 3;
+            this.btnContacto.Text = "Contacto";
+            this.btnContacto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnContacto.UseVisualStyleBackColor = true;
+            this.btnContacto.Click += new System.EventHandler(this.btnContacto_Click);
+            // 
+            // btnAutopartes
+            // 
+            this.btnAutopartes.FlatAppearance.BorderSize = 0;
+            this.btnAutopartes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.btnAutopartes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnAutopartes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAutopartes.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAutopartes.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnAutopartes.Image = global::TpFinalPorg.Properties.Resources.AutopartesIco;
+            this.btnAutopartes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAutopartes.Location = new System.Drawing.Point(0, 214);
+            this.btnAutopartes.Name = "btnAutopartes";
+            this.btnAutopartes.Size = new System.Drawing.Size(137, 45);
+            this.btnAutopartes.TabIndex = 2;
+            this.btnAutopartes.Text = "Autopartes";
+            this.btnAutopartes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAutopartes.UseVisualStyleBackColor = true;
+            this.btnAutopartes.Click += new System.EventHandler(this.btnAutopartes_Click);
+            // 
+            // btnVehiculos
+            // 
+            this.btnVehiculos.FlatAppearance.BorderSize = 0;
+            this.btnVehiculos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.btnVehiculos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnVehiculos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVehiculos.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVehiculos.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnVehiculos.Image = global::TpFinalPorg.Properties.Resources.Vehiculosico;
+            this.btnVehiculos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVehiculos.Location = new System.Drawing.Point(0, 137);
+            this.btnVehiculos.Name = "btnVehiculos";
+            this.btnVehiculos.Size = new System.Drawing.Size(137, 45);
+            this.btnVehiculos.TabIndex = 1;
+            this.btnVehiculos.Text = "Vehiculos";
+            this.btnVehiculos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnVehiculos.UseVisualStyleBackColor = true;
+            this.btnVehiculos.Click += new System.EventHandler(this.btnVehiculos_Click);
+            // 
+            // btnClientes
+            // 
+            this.btnClientes.FlatAppearance.BorderSize = 0;
+            this.btnClientes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.btnClientes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClientes.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClientes.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnClientes.Image = global::TpFinalPorg.Properties.Resources.Clientes;
+            this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClientes.Location = new System.Drawing.Point(0, 60);
+            this.btnClientes.Name = "btnClientes";
+            this.btnClientes.Size = new System.Drawing.Size(137, 45);
+            this.btnClientes.TabIndex = 0;
+            this.btnClientes.Text = "Clientes";
+            this.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnClientes.UseVisualStyleBackColor = true;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
+            // 
+            // btnVenta
+            // 
+            this.btnVenta.FlatAppearance.BorderSize = 0;
+            this.btnVenta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
+            this.btnVenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnVenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVenta.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVenta.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnVenta.Image = global::TpFinalPorg.Properties.Resources.Facturasico;
+            this.btnVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVenta.Location = new System.Drawing.Point(0, 368);
+            this.btnVenta.Name = "btnVenta";
+            this.btnVenta.Size = new System.Drawing.Size(137, 45);
+            this.btnVenta.TabIndex = 6;
+            this.btnVenta.Text = "Ventas";
+            this.btnVenta.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnVenta.UseVisualStyleBackColor = true;
+            this.btnVenta.Click += new System.EventHandler(this.btnVenta_Click);
+            // 
             // btnMaximize
             // 
             this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -137,185 +340,12 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // panellEFT
+            // vendedores
             // 
-            this.panellEFT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.panellEFT.Controls.Add(this.btnVolver);
-            this.panellEFT.Controls.Add(this.btnReportes);
-            this.panellEFT.Controls.Add(this.btnContacto);
-            this.panellEFT.Controls.Add(this.btnAutopartes);
-            this.panellEFT.Controls.Add(this.btnVehiculos);
-            this.panellEFT.Controls.Add(this.btnClientes);
-            this.panellEFT.Controls.Add(this.btnVenta);
-            this.panellEFT.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panellEFT.Location = new System.Drawing.Point(0, 44);
-            this.panellEFT.Name = "panellEFT";
-            this.panellEFT.Size = new System.Drawing.Size(137, 556);
-            this.panellEFT.TabIndex = 2;
-            // 
-            // btnVenta
-            // 
-            this.btnVenta.FlatAppearance.BorderSize = 0;
-            this.btnVenta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.btnVenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
-            this.btnVenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVenta.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVenta.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnVenta.Image = global::TpFinalPorg.Properties.Resources.Facturasico;
-            this.btnVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVenta.Location = new System.Drawing.Point(0, 420);
-            this.btnVenta.Name = "btnVenta";
-            this.btnVenta.Size = new System.Drawing.Size(137, 45);
-            this.btnVenta.TabIndex = 6;
-            this.btnVenta.Text = "Ventas";
-            this.btnVenta.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnVenta.UseVisualStyleBackColor = true;
-            this.btnVenta.Click += new System.EventHandler(this.btnVenta_Click);
-            // 
-            // btnVolver
-            // 
-            this.btnVolver.FlatAppearance.BorderSize = 0;
-            this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
-            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVolver.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnVolver.Image = global::TpFinalPorg.Properties.Resources.Volverico;
-            this.btnVolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVolver.Location = new System.Drawing.Point(0, 84);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(137, 45);
-            this.btnVolver.TabIndex = 5;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnVolver.UseVisualStyleBackColor = true;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
-            // btnReportes
-            // 
-            this.btnReportes.FlatAppearance.BorderSize = 0;
-            this.btnReportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.btnReportes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
-            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReportes.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReportes.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnReportes.Image = global::TpFinalPorg.Properties.Resources.Reportesico;
-            this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReportes.Location = new System.Drawing.Point(0, 336);
-            this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(137, 45);
-            this.btnReportes.TabIndex = 4;
-            this.btnReportes.Text = "Reportes";
-            this.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnReportes.UseVisualStyleBackColor = true;
-            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
-            // 
-            // btnContacto
-            // 
-            this.btnContacto.FlatAppearance.BorderSize = 0;
-            this.btnContacto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.btnContacto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
-            this.btnContacto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnContacto.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnContacto.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnContacto.Image = global::TpFinalPorg.Properties.Resources.ContactanosIco;
-            this.btnContacto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnContacto.Location = new System.Drawing.Point(0, 508);
-            this.btnContacto.Name = "btnContacto";
-            this.btnContacto.Size = new System.Drawing.Size(137, 45);
-            this.btnContacto.TabIndex = 3;
-            this.btnContacto.Text = "Contacto";
-            this.btnContacto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnContacto.UseVisualStyleBackColor = true;
-            this.btnContacto.Click += new System.EventHandler(this.btnContacto_Click);
-            // 
-            // btnAutopartes
-            // 
-            this.btnAutopartes.FlatAppearance.BorderSize = 0;
-            this.btnAutopartes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.btnAutopartes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
-            this.btnAutopartes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAutopartes.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAutopartes.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnAutopartes.Image = global::TpFinalPorg.Properties.Resources.AutopartesIco;
-            this.btnAutopartes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAutopartes.Location = new System.Drawing.Point(0, 252);
-            this.btnAutopartes.Name = "btnAutopartes";
-            this.btnAutopartes.Size = new System.Drawing.Size(137, 45);
-            this.btnAutopartes.TabIndex = 2;
-            this.btnAutopartes.Text = "Autopartes";
-            this.btnAutopartes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAutopartes.UseVisualStyleBackColor = true;
-            this.btnAutopartes.Click += new System.EventHandler(this.btnAutopartes_Click);
-            // 
-            // btnVehiculos
-            // 
-            this.btnVehiculos.FlatAppearance.BorderSize = 0;
-            this.btnVehiculos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.btnVehiculos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
-            this.btnVehiculos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVehiculos.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVehiculos.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnVehiculos.Image = global::TpFinalPorg.Properties.Resources.Vehiculosico;
-            this.btnVehiculos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVehiculos.Location = new System.Drawing.Point(0, 168);
-            this.btnVehiculos.Name = "btnVehiculos";
-            this.btnVehiculos.Size = new System.Drawing.Size(137, 45);
-            this.btnVehiculos.TabIndex = 1;
-            this.btnVehiculos.Text = "Vehiculos";
-            this.btnVehiculos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnVehiculos.UseVisualStyleBackColor = true;
-            this.btnVehiculos.Click += new System.EventHandler(this.btnVehiculos_Click);
-            // 
-            // btnClientes
-            // 
-            this.btnClientes.FlatAppearance.BorderSize = 0;
-            this.btnClientes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.btnClientes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
-            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClientes.Font = new System.Drawing.Font("Montserrat Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClientes.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnClientes.Image = global::TpFinalPorg.Properties.Resources.Clientes;
-            this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.Location = new System.Drawing.Point(0, 84);
-            this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(137, 45);
-            this.btnClientes.TabIndex = 0;
-            this.btnClientes.Text = "Clientes";
-            this.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnClientes.UseVisualStyleBackColor = true;
-            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
-            // 
-            // PanelFill
-            // 
-            this.PanelFill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(64)))));
-            this.PanelFill.Controls.Add(this.ventas);
-            this.PanelFill.Controls.Add(this.reportes);
-            this.PanelFill.Controls.Add(this.autopartes);
-            this.PanelFill.Controls.Add(this.vehiculos);
-            this.PanelFill.Controls.Add(this.contactanos);
-            this.PanelFill.Controls.Add(this.abmClientes);
-            this.PanelFill.Controls.Add(this.pictureBox1);
-            this.PanelFill.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelFill.Location = new System.Drawing.Point(137, 44);
-            this.PanelFill.Name = "PanelFill";
-            this.PanelFill.Size = new System.Drawing.Size(663, 556);
-            this.PanelFill.TabIndex = 3;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.pictureBox1.Image = global::TpFinalPorg.Properties.Resources.JVA1;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 23);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(624, 484);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // tHora
-            // 
-            this.tHora.Enabled = true;
-            this.tHora.Tick += new System.EventHandler(this.tHora_Tick);
+            this.vendedores.Location = new System.Drawing.Point(0, 0);
+            this.vendedores.Name = "vendedores";
+            this.vendedores.Size = new System.Drawing.Size(663, 556);
+            this.vendedores.TabIndex = 7;
             // 
             // ventas
             // 
@@ -428,5 +458,7 @@
         private Vehiculos vehiculos;
         private System.Windows.Forms.Button btnVenta;
         private Ventas ventas;
+        private System.Windows.Forms.Button btnVendedores;
+        private Vendedores vendedores;
     }
 }
