@@ -1,0 +1,32 @@
+E:\programacion\TpFinalPorg\bin\Debug\TpFinalPorg.exe.config
+E:\programacion\TpFinalPorg\bin\Debug\TpFinalPorg.exe
+E:\programacion\TpFinalPorg\bin\Debug\TpFinalPorg.pdb
+E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.csprojAssemblyReference.cache
+E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.Properties.Resources.resources
+E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.GenerateResource.cache
+E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.exe
+E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.pdb
+E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.frmLogin.resources
+E:\programacion\TpFinalPorg\obj\Debug\TpFinalPorg.frmPrincipal.resources
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.csprojAssemblyReference.cache
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.frmLogin.resources
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.frmPrincipal.resources
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Properties.Resources.resources
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.GenerateResource.cache
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.CoreCompileInputs.cache
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.exe
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.pdb
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\bin\Debug\TpFinalPorg.exe.config
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\bin\Debug\TpFinalPorg.exe
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\bin\Debug\TpFinalPorg.pdb
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.ABMClientes.resources
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Contactanos.resources
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Autopartes.resources
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Reportes.resources
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Vehiculos.resources
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\bin\Debug\Interop.WMPLib.dll
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\bin\Debug\AxInterop.WMPLib.dll
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\Interop.WMPLib.dll
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\AxInterop.WMPLib.dll
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.csproj.ResolveComReference.cache
+F:\Proyectos y Aplicaciones MIAS\PROYECTOS\TpFinalPorg\obj\Debug\TpFinalPorg.Ventas.resources
